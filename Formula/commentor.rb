@@ -1,18 +1,18 @@
 class Commentor < Formula
   desc "Azure DevOps pull request comment triage utility"
   homepage "https://github.com/JohnnyDevCraft/commentor"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/JohnnyDevCraft/commentor/releases/download/v0.1.1/commentor-0.1.1-osx-arm64.tar.gz"
-      sha256 "ae61f645dd1eefaf0b7595e8a726e9a9bb2d68ad0cea1d3eca23127694bb8dbb"
+      url "https://github.com/JohnnyDevCraft/commentor/releases/download/v0.1.2/commentor-0.1.2-osx-arm64.tar.gz"
+      sha256 "6b3f26bf2e474630effb9b63ce2de0770387a2ee9e8a2758fb2302ecf65a849c"
     end
 
     on_intel do
-      url "https://github.com/JohnnyDevCraft/commentor/releases/download/v0.1.1/commentor-0.1.1-osx-x64.tar.gz"
-      sha256 "aceb2d8575d87b9041d9e3fddba695a5a7855e18c22c8d921fcd5150ec53dfca"
+      url "https://github.com/JohnnyDevCraft/commentor/releases/download/v0.1.2/commentor-0.1.2-osx-x64.tar.gz"
+      sha256 "fe5161e9dffb390aa454c69cb53989446fff6892c86df02994c84b0d1c92ca9e"
     end
   end
 

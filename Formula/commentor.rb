@@ -12,7 +12,7 @@ class Commentor < Formula
   end
 
   def install
-    bin.install "commentor-#{version}-#{Hardware::CPU.arm? ? "osx-arm64" : "osx-x64"}/commentor"
+    bin.install "commentor"
   end
 
   test do
